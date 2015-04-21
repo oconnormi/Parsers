@@ -19,31 +19,15 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.codice.testify</groupId>
-        <artifactId>testify-parent</artifactId>
-        <version>0.0.1</version>
+        <artifactId>parsers</artifactId>
+        <version>0.0.2-SNAPSHOT</version>
     </parent>
 
     <groupId>org.codice.testify.testparsers</groupId>
     <artifactId>directorymarkertestparser</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Directory Marker Test Parser</name>
     <description>A test parser for .marker files, used to mark directories for easy use within tests</description>
-
-    <scm>
-        <connection>scm:git:https://github.com/testify/DirectoryMarkerTestParser.git</connection>
-        <developerConnection>scm:git:https://github.com/testify/DirectoryMarkerTestParser.git</developerConnection>
-        <url>https://github.com/testify/DirectoryMarkerTestParser.git</url>
-      <tag>HEAD</tag>
-  </scm>
-
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-
-        <!-- maven-compiler-plugin -->
-        <maven.compiler.target>1.7</maven.compiler.target>
-        <maven.compiler.source>1.7</maven.compiler.source>
-    </properties>
 
     <dependencies>
         <dependency>
